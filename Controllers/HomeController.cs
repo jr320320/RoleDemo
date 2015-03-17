@@ -36,7 +36,7 @@ namespace RoleSample.Controllers
             string roles = string.Empty;
             if (!string.IsNullOrEmpty(currentUserId))
             {
-                roles = um.GetRoles(currentUserId)[0];
+                roles = um.GetRoles(currentUserId).ToString();
             }
             else
             {
