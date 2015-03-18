@@ -186,6 +186,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".nuget\NuGet.exe" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\darrow.png" />
@@ -204,6 +205,8 @@
     <Content Include="PPT\Authentication.ppt" />
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
+    <Content Include=".nuget\NuGet.Config" />
+    <Content Include=".nuget\NuGet.targets" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\hoverIntent.js" />
     <Content Include="Scripts\jqsimplemenu.js" />
