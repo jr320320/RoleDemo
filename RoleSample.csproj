@@ -202,6 +202,8 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="PPT\Authentication.ppt" />
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\hoverIntent.js" />
     <Content Include="Scripts\jqsimplemenu.js" />
